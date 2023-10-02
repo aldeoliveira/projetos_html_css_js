@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;  /* para os inputs não passarem da largura delimitada */
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: #f4f4f4;  /* cinza bem claro, quase branco */
+    display: flex;  /* aparentemente permite que os atributos de 'align-items' e 'justify-content' tenham efeito */
+    align-items: center;  /* centraliza os itens verticalmente */
+    justify-content: center;  /* centraliza os itens horizontalmente */
+    height: 100vh;  /* 100vh é a altura total da tela */
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+    padding: 1.5rem;
+    width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.input-group,
+.output-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+}
+
+.input-group label,
+.input-group label {
+    margin-bottom: .4rem;
+    font-weight: bold;
+}
+
+select, input {
+    padding: .8rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    background-color: #EEE;
+}
+
+button {
+    background-color: #4caf50;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: .7rem 1.2rem;
+    opacity: .7;
+    transition: .4s;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.output-group {
+    margin-top: 1.2rem;
+}
+
+#message {
+    font-size: .8rem;
+    color: #4caf50;
+    margin-top: .7rem;
+    text-align: center;
+}

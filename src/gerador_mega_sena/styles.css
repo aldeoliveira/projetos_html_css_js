@@ -1,0 +1,64 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.game-container {
+    background-color: #fff;
+    width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+p {
+    margin-bottom: 1.8rem;
+    font-size: 1.3rem;
+}
+
+.sequence-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+
+.number-container {
+    /* The container is a 60px diameter circle */
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* The background is reddish, the font is white */
+    background-color: #ff5100;
+    color: #fff;
+    /* The text line has the same size as the circle, with the number in the center */
+    line-height: 60px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    padding: .8rem 1.2rem;
+    font-size: 1.1rem;
+    background-color: #ff5100;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+button:hover {
+    background-color: #e4510d;
+}

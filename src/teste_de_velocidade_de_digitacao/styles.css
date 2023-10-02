@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.instructions {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#challenge-text {
+    font-size: 1.2rem;
+    background-color: #f3f3f3;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#input-text {
+    width: 100%;
+    padding: .8rem;
+    margin-bottom: 1rem;
+}
+
+#feedback-message {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: .6rem 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .15s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#change-theme-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+/* Clear and dark themes */
+.light {
+    background-color: #fff;
+    color: #333;
+}
+
+.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark #challenge-text {
+    color: #333;
+}

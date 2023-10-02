@@ -1,0 +1,107 @@
+* {
+    font-family: Helvetica;
+}
+
+body {
+    padding: 0;
+    margin-bottom: 80px;
+}
+
+/* -------------- NAV -------------- */
+
+/* Style the nav bar */
+nav ul {
+    background-color: #333;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 0 16px;
+    margin: 0;
+}
+
+/* Align nav list of links */
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+/* Style the menu links */
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 16px;
+}
+
+/* Change link color on hover */
+nav a:hover {
+    background-color: #222;
+}
+
+/* Dropdown content - hidden by default */
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    width: 100px;
+    top: 50px;
+    left: 0;
+    padding: 0;
+    font-size: .8rem;
+}
+
+/* Format dropdown list */
+nav ul ul li {
+    display: block;
+}
+
+/* Links inside the dropdown */
+nav ul ul li a {
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show the dropdown menu on hover */
+nav ul li:hover > ul {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+nav ul li:hover > a {
+    background-color: #222;
+}
+
+/* Style nested dropdown list */
+nav ul ul ul {
+    top: 0;
+    left: 100px;
+    background-color: #555;
+}
+
+/* -------------- NAV -------------- */
+/* -------------- CONTENT -------------- */
+
+.content-container {
+    margin: 16px;
+}
+
+/* -------------- CONTENT -------------- */
+/* -------------- FOOTER -------------- */
+
+footer #back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+footer #back-to-top:hover {
+    background-color: #666;
+}
+
+/* -------------- FOOTER -------------- */
